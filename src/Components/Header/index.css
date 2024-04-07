@@ -54,3 +54,19 @@ button {
   top: 15px;
   right: 5px;
 }
+.mobile-links {
+  background-color: ghostwhite;
+  transition: 0.3s;
+  position: absolute;
+  right: -150px;
+  list-style-type: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  line-height: 2.5;
+  padding-bottom: 50px;
+  top: 30px;
+}
+.mobile-links-view {
+  right: 10px;
+  cursor: pointer;
+}
