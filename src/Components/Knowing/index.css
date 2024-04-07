@@ -1,0 +1,25 @@
+.know-data-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e5f5;
+  margin: 5px;
+}
+.top-know-ul {
+  background-color: rgb(12, 12, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.know-heading {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+}
+.ul-content-know {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.know-list {
+  font-size: 20px;
+  font-family: cursive;
+}

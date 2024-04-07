@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body-flow {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: absolute;
+  padding-bottom: 20px;
+  top: 63px;
+  z-index: 1;
+}
+
+.why-choose {
+  color: black;
+  border-bottom: 2px solid red;
+  align-self: center;
+  padding-bottom: 10px;
+}
+.card-choosing {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style-type: none;
+  padding-left: 0px;
+}
+.slip-card {
+  background-color: #e4e5f5;
+  width: 250px;
+  border-radius: 8px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 2px 15px rgb(54, 54, 148);
+}
+.card-heading {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.card-desc {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+.duration-cells {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.cell {
+  display: flex;
+  height: 90px;
+  padding-bottom: 5px;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid rgb(79, 79, 231);
+  margin: 10px;
+  background-color: #e4e5f5;
+  border-radius: 12px;
+}
+.cell-heading {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cell-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #212124;
+  margin-top: 0px;
+}
+.knowledge-ul {
+  display: flex;
+  justify-content: center;
+}
+.placements-prep {
+  display: flex;
+  background-color: #b1cee6;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.bottom-prep-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.bottom-place-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #323f4b;
+  font-size: 20px;
+}
+.signin-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.sin {
+  background-color: rgb(209, 6, 6);
+  border-radius: 8px;
+  height: 40px;
+  width: 150px;
   color: white;
+  border-width: 0px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.place-form {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgb(19, 19, 233);
+  border-radius: 10px;
+  background-color: white;
+  width: 30%;
+  padding: 15px;
+  box-shadow: 5px 5px 50px rgb(203, 228, 243);
 }

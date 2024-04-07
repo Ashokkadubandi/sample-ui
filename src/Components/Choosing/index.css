@@ -1,0 +1,79 @@
+.choosing-view {
+  background-color: #e4e5f5;
+  padding-top: 38px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.text-view {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #02064a;
+  font-size: 28px;
+}
+.descript {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202029;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.card-slips {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.sample-card {
+  background-color: #e4e5f5;
+  box-shadow: 2px 2px 15px;
+  height: 90px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-text {
+  color: #202029;
+  font-size: 18px;
+}
+.cart-para {
+  color: #202029;
+  font-size: 18px;
+}
+.form-view {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px red solid;
+  padding: 20px 20px;
+  box-shadow: 3px 3px 20px #868beb;
+  border-radius: 10px;
+  width: 30%;
+}
+.form-heading {
+  color: #02064a;
+  text-align: center;
+  font-size: 20px;
+}
+input {
+  margin: 5px;
+  height: 40px;
+  border: 1px solid #868beb;
+  border-radius: 8px;
+  padding-left: 8px;
+}
+select {
+  margin: 5px;
+  height: 40px;
+  border: 1px solid #868beb;
+  border-radius: 8px;
+  padding-left: 8px;
+}
+.request {
+  background-color: #02064a;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+}
