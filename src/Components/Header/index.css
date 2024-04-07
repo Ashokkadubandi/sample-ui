@@ -11,6 +11,11 @@
   top: 0px;
   z-index: 2;
 }
+@media (max-width: 568px) {
+  .header {
+    display: none;
+  }
+}
 h1 {
   color: white;
   font-family: "Roboto";
@@ -31,4 +36,21 @@ button {
   font-size: 20px;
   padding: 8px;
   border-radius: 8px;
+}
+.mobile-view {
+  background-color: red;
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+@media (min-width: 568px) {
+  .mobile-view {
+    display: none;
+  }
+}
+.mobile-btn {
+  position: absolute;
+  top: 15px;
+  right: 5px;
 }

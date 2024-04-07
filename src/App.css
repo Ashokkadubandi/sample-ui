@@ -9,15 +9,28 @@
 
 .why-choose {
   color: black;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgb(13, 13, 211);
   align-self: center;
   padding-bottom: 10px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 568px) {
+  .why-choose {
+    font-size: 18px;
+  }
 }
 .card-choosing {
   display: flex;
   justify-content: center;
   list-style-type: none;
   padding-left: 0px;
+}
+@media (max-width: 568px) {
+  .card-choosing {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .slip-card {
   background-color: #e4e5f5;
@@ -47,6 +60,12 @@
   justify-content: space-around;
   list-style-type: none;
 }
+@media (max-width: 568px) {
+  .duration-cells {
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+}
 .cell {
   display: flex;
   height: 90px;
@@ -58,6 +77,11 @@
   margin: 10px;
   background-color: #e4e5f5;
   border-radius: 12px;
+}
+@media (max-width: 568px) {
+  .cell {
+    max-width: 150px;
+  }
 }
 .cell-heading {
   color: black;
@@ -74,6 +98,12 @@
 .knowledge-ul {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 568px) {
+  .knowledge-ul {
+    flex-direction: column;
+    padding-left: 0px;
+  }
 }
 .placements-prep {
   display: flex;
@@ -116,4 +146,9 @@
   width: 30%;
   padding: 15px;
   box-shadow: 5px 5px 50px rgb(203, 228, 243);
+}
+@media (max-width: 568px) {
+  .place-form {
+    display: none;
+  }
 }
